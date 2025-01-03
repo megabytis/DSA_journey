@@ -1,9 +1,0 @@
-1. pattern problem means = NESTED LOOPS !!! (mostly 2 nests everytime)
-
-2. count the numbers of lines/rows , this will be = no. of OUTER LOOP
-
-3. focus on no. of columns for INNER LOOP & try to connect somehow it to outer loop / rows.
-
-4. whatever u r printing , print them inside the inner loop .
-
-5. observe symmetry [optional step] .
