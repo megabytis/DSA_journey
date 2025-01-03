@@ -1,5 +1,5 @@
 // finding binary of -ve decimal numbers 
-//unsolved !! );
+
 
 #include<iostream>
 #include<cstring>
