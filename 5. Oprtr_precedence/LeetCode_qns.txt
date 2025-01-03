@@ -1,0 +1,5 @@
+1. Subtract the product and sum of digits of an integer (lc1281)
+2. Number of 1 bits (lc191)
+3. Reverse integer (lc7)
+4. Compliment of Base 10 Integer (lc1009)
+5. Number complement (lc476)
