@@ -1,0 +1,19 @@
+why to use function ?
+
+-- for easy debugging
+-- for easy in reading & understading , maintaining
+-- can be use in repeating as many time as you can 
+
+syntax :-
+<return_type> <function_name> (parameters)
+
+# func 2 type : user built nd predefined ,
+   agai 2 type : void <func> and non-void i.e. int/char/... <func>
+   -> "return <value>" is neccesary at the end of non void func
+   -> but we can write only return; at the end of void func ; but not any value after return ...
+    
+
+***** tips ****
+- give the user defined function name in such a say so that 
+  any can understand what the function is about 
+- 
