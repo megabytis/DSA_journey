@@ -1,0 +1,102 @@
+----- there r many types of qns can be formed like below -----
+
+* Elementary Traversal and Modification
+
+Sum of elements
+Finding minimum/maximum
+Counting occurrences of an element
+Reversing an array
+Rotate an array
+
+
+
+* Sorting and Searching
+
+Sorting algorithms (Bubble, Selection, Insertion, Merge, Quick, Heap)
+Binary search on sorted arrays
+Counting sort (for special cases where elements are in a limited range)
+Search fora given element (linear and binary search)
+Find the kth smallest/largest element
+
+
+
+* Two-pointer Techniques
+
+Finding pairs with a specific sum (e.g., two sum problem)
+Reversing an array in-place
+Merging two sorted arrays
+Partitioning an array (used in quicksort)
+Sliding window problems (e.g., maximum sum subarray of size k)
+
+
+
+* Dynamic Programming
+
+Maximum/Minimum sum subarray
+Longest increasing subsequence
+Coin change problem
+Knapsack problem variants
+Number of ways to sum up to a target (subset sum problem)
+
+
+
+* Hashing and Counting
+
+Frequency count of elements
+Finding duplicates or missing numbers
+Grouping or categorizing data
+Longest consecutive sequence
+
+
+
+
+* Divide and Conquer
+
+Quick sort
+Merge sort
+Binary search
+Find peak element
+Closest pair of points (using divide and conquer in multidimensional arrays)
+
+
+* Matrix Problems
+
+Matrix rotation and flipping
+Spiral order traversal
+Searching in a row-wise and column-wise sorted matrix
+Matrix multiplication
+Path finding problems (e.g., number of paths from top-left to bottom-right)
+
+
+
+* Cycle Detection
+
+Detecting cycle in an array (Floyd's Tortoise and Hare)
+Find the repeating and missing numbers
+
+
+
+* Miscellaneous Complex Patterns
+
+Rearrange array according to given indexes
+Rearrange array in-place with O(1) extra space
+Shuffle an array
+Stock buy and sell to maximize profit (single or multiple transactions)
+Reorder array according to given indexes
+
+
+
+* Stacks and Queues using Arrays
+
+Next greater/smaller element
+Implementing a min-stack
+Implementing queues using stacks and vice versa
+Histogram related problems (e.g., largest rectangle in histogram)
+
+
+
+* Graph-related
+
+Adjacency matrix representation and operations
+Transitive closure of a graph (using Floyd-Warshall algorithm )
+Shortest path in weighted/unweighted graph
