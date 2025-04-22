@@ -1,0 +1,13 @@
+Heap Algorithms :
+
+1. std::make_heap: Converts a range into a max-heap.
+Time Complexity: O(n)
+
+2. std::push_heap: Inserts an element into a max-heap.
+Time Complexity: O(log n)
+
+3. std::pop_heap: Removes the largest element from a max-heap.
+Time Complexity: O(log n)
+
+4. std::sort_heap: Sorts a range that represents a max-heap.
+Time Complexity: O(n log n)

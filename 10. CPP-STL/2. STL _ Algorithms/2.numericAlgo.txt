@@ -1,0 +1,12 @@
+#include<numeric>
+
+Numeric Algorithms:
+
+
+1. std::accumulate: Computes the sum of elements in a range.
+
+2. std::inner_product: Computes the inner product (dot product) of two ranges.
+
+3. std::partial_sum: Computes the partial sums of a range (e.g., cumulative sums).
+
+4. std::iota: Fills a range with sequentially incrementing values (e.g., 0, 1, 2, ...).

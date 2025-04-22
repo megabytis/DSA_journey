@@ -1,0 +1,16 @@
+Searching and Finding Algorithm:
+
+1. std::binary_search: Checks if a value exists in a sorted range.
+Time Complexity: O(log n)
+
+
+2. std::lower_bound: Finds the first element greater or equal to a value in a sorted range.
+Time Complexity: O(log n)
+
+
+3. std::upper_bound: Finds the first element greater than a value in a sorted range.
+Time Complexity: O(log n)
+
+
+4. std::equal_range: Finds a range of elements equal to a value in a sorted range.
+Time Complexity: O(log n)

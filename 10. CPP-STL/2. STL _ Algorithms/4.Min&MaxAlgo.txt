@@ -1,0 +1,13 @@
+Min and Max Algorithm :
+
+1. std::min: Returns the smaller of two values.
+Time Complexity : 	O(1)
+
+2. std::max: Returns the larger of two values.
+Time Complexity : 	O(1)
+
+3. std::min_element: Finds the smallest element in a range.
+Time Complexity : 	O(n)
+
+4. std::max_element: Finds the largest element in a range.
+Time Complexity : 	O(n)
