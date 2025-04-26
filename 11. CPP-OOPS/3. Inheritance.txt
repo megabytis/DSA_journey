@@ -1,0 +1,46 @@
+INHERITANCE :-
+
+- A way to create class form existing class .
+- derived/ child/ sub class inherits some attributes & behavious from Base/ Parent/ Super class .
+- Use inheritance whenever IS-A relatioship is identified btn objects
+- Inheritance is applied where objects exhibit relationship, signifying a specialized-generalised connection
+
+
+------ General “is-a” Examples :------
+
+1. Animal Hierarchy:
+   Base Class: Animal
+   Derived Classes: Mammal, Reptile, Bird
+   Explanation: mamal IS-A animal, Reptile also IS-A animal like this .........
+
+2. Vehicle Classification:
+   Base Class: Vehicle
+   Derived Classes: Car, Motorcycle, Truck
+   Explanation: Cars, motorcycles, and trucks are specific types of vehicles, demonstrating an “IS-A” relationship.
+
+3. Employee Categorization:
+   Base Class: Employee
+   Derived Classes: Manager, Developer, HR Specialist
+   Explanation: Managers, developers, and HR specialists are employees with specific roles, establishing an “IS-A” relationship.
+
+4. Geometry Classes:
+   Base Class: Shape
+   Derived Classes: Circle, Square, Triangle
+   Explanation: Circles, squares, and triangles are different shapes, forming an “IS-A” relationship within the context of geometry.
+
+5. Electronic Devices:
+   Base Class: Device
+   Derived Classes: Smartphone, Laptop, Tablet
+   Explanation: Smartphones, laptops, and tablets are all electronic devices, creating an “IS-A” relationship.
+
+
+*** Classic Example -----------------------
+
+- Program to represent different types of vehicles
+- Represent entities like cars, motorcycles, etc.
+- For cars, attributes like name, model; methods like start_engine(), stop_engine()
+- Similar attributes and methods for the Motorcycle class
+- Introduction of inheritance
+- Create a superclass "Vehicles"
+- Define general attributes and methods in the Vehicles superclass
+- Cars and Motorcycles, as subclasses, inherit from the Vehicles superclass
