@@ -1,0 +1,41 @@
+🔐 VIRTUAL KEYWORD usage 🔐
+
+1. Basic Purpose:
+   - The `virtual` keyword enables runtime polymorphism (dynamic binding)
+   - It allows derived classes to override base class methods
+
+2. How to Use:
+   - Place before function declaration in base class
+   - Derived classes can then override it
+   - Syntax:
+     ```cpp
+     virtual ReturnType FunctionName(Params) { /*...*/ }
+     ```
+
+3. Key Effects:
+   - Enables function overriding in derived classes
+   - Determines function call at runtime (not compile time)
+   - Requires pointer/reference to base class for polymorphism
+
+Example :---------
+
+class Animal {
+public:
+    virtual void speak() {  // Base class virtual function
+        cout << "Animal sound" << endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void speak() override {  // Overrides Animal::speak()
+        cout << "Woof!" << endl;
+    }
+};
+
+int main() {
+    Animal* myPet = new Dog();
+    myPet->speak();  // Outputs "Woof!" (not "Animal sound")
+    delete myPet;
+    return 0;
+}

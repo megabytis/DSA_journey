@@ -1,0 +1,24 @@
+🔐 FINAL KEYWORD usage 🔐
+
+1. For Classes:
+   - Syntax: `class ClassName final { ... };`
+   - Effect: No inheritance allowed!
+
+2. For Functions:
+   - Syntax: `virtual void func() final { ... }`
+   - Effect: No overriding in child classes!
+
+3. Use Cases:
+   - Security (prevent tampering via inheritance)
+   - Performance (compiler can optimize final calls)
+   - Design (enforce immutable behavior)
+
+
+e.g. :-
+
+class Animal final {  // 🔒 This class CANNOT be inherited
+    // ...
+};
+class Dog : public Animal {  // ❌ COMPILER ERROR!
+    // ...
+};

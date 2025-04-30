@@ -1,0 +1,25 @@
+Polymorphism in C++
+
+1. Similar to Polymorphism in Life.
+2. Polymorphism = Many Forms.
+3. The ability of a single function or operator to work in different ways based on the object it is acting upon or actual need.
+4. A phenomenon that allows an object to have several different forms and behaviours.
+5. Types:
+   1. Compile Time Polymorphism (Static)
+   2. Runtime Polymorphism (Dynamic)
+
+Example :------------------
+(Real-life analogy - Rahul):
+- Rahul has many roles:
+   - Parent ⇄ Rahul ⇄ Parent
+   - Rahul ⇄ Wife
+   - Rahul → Child
+   - Rahul → Son
+   - Rahul ⇄ Sibling (Sis/Bro)
+
+This shows that one object (Rahul) can take on MULTIPLE FORMS based on the context — just like polymorphism in C++.
+------------------------- 
+
+--> So, polymorphism, can be done in 2 ways : 
+(i) Function Overloading
+(ii) Operator Overloading
