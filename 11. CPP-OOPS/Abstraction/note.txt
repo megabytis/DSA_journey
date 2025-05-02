@@ -1,0 +1,14 @@
+*** ABSTRACTION in CPP ***
+    ==================
+
+ସିଧା କଥା, in real life ଯାହା ବି ଆମେ ବ୍ୟବହାର କରୁଛନ୍ତି, ସେଇଟା backend ରେ କାମ କେମିତି କରୁଛି ଆମେ ଜାଣି ନାହାନ୍ତି 
+e.g. any Application, any laptop, computer, mobilephone, watch etc...
+
+-> in cpp also This ABSTRACTION do exist ;
+
+### Abstraction in Header files
+
+1. Function’s implementation is hidden in header files.  
+2. We could use the same program without knowing its inside working / backside hidden programs  
+3. E.g., `Sort`, for example, is used to sort an array, a list, or a collection of items, and we know that if we give a container to sort, 
+   it will sort it, but we don’t know which sorting algorithm it uses to sort that container / how the sort function works bts .

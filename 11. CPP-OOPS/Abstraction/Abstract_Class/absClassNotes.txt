@@ -1,0 +1,92 @@
+## 🔹 What is an Abstract Class?
+
+An abstract class is a class that:
+- Cannot be instantiated (no objects can be created).
+- Contains at least one pure virtual function.
+- Acts as a base class to define interfaces for derived classes.
+
+## 🔹 Pure Virtual Function
+
+A function with no implementation in the base class.
+
+Syntax:
+virtual void functionName() = 0;
+
+Example:
+class Shape {
+public:
+    virtual void draw() = 0; // Pure virtual function
+};
+
+## 🔹 How It Works
+
+1. A class becomes abstract if it has even one pure virtual function.
+2. Derived classes must override all pure virtual functions, or they too become abstract.
+3. You can have:
+   - Data members
+   - Constructors/Destructors
+   - Normal functions
+   - Even some implemented methods in abstract classes
+
+## 🔹 Example Code
+
+#include <iostream>
+using namespace std;
+
+// Abstract Base Class
+class Shape {
+public:
+    virtual void draw() = 0; // Must be overridden
+    void info() {
+        cout << "This is a shape." << endl;
+    }
+};
+
+// Concrete Derived Class
+class Circle : public Shape {
+public:
+    void draw() override {
+        cout << "Drawing a Circle" << endl;
+    }
+};
+
+int main() {
+    // Shape s; // ❌ Error: Cannot create object of abstract class
+    Circle c;
+    c.draw();     // ✅ Drawing a Circle
+    c.info();     // ✅ This is a shape.
+    return 0;
+}
+
+## 🔹 Key Points
+
+| Feature                        | Description                          |
+|-------------------------------|--------------------------------------|
+| Instantiation                 | ❌ Not allowed                       |
+| Purpose                       | To define interfaces                 |
+| Can have normal functions     | ✅ Yes                               |
+| Can have data members         | ✅ Yes                               |
+| Derived class not overriding all pure virtual functions | ❌ Becomes abstract too |
+
+## 🔹 Real-Life Use Cases
+
+1. **GUI Frameworks**
+   - Base class like `Widget` defines interface for buttons, labels, etc.
+   - Each widget implements drawing logic differently.
+
+2. **Game Development**
+   - Base class `Character` defines pure virtual function `attack()`.
+   - Subclasses like `Warrior`, `Mage` implement attack differently.
+
+3. **Plugin Systems**
+   - Abstract interfaces allow developers to plug in new modules without changing core code.
+
+4. **Design Patterns**
+   - Used in Factory, Strategy, and Template Method patterns.
+
+## 🔹 Summary
+
+- Abstract class = Interface + Partial Implementation.
+- Forces derived classes to follow a structure.
+- Promotes code reusability and maintainability.
+- Foundation for polymorphism and OOP design principles.
