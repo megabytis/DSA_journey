@@ -12,6 +12,16 @@ using namespace std;
 int main(){
     // default MAX HEAP (gives maximum element/value = which is highest priority)
     priority_queue<int> pq;
+    priority_queue<int, vector<int>, less<int>> pqq ;
+    // Both r same, both will create MAX HEAP :)
+    /*
+        here ;
+        in priority_queue<int, vector<int>, less<int>>
+        in parameters ;
+        int -> means we r gonna store integers
+        vector<int> -> means underlining container we r using is Vector container
+        less<int>  -> an 'compairator', which will give maximum value .
+    */
 
     // MIN HEAP (gives minimum element/value = which is highest priority)
     priority_queue<int, vector<int>, greater<int>> pq1 ;
