@@ -1,0 +1,31 @@
+# Functors in C++
+
+## What Are Functors?
+- Functors are objects that behave like functions.
+- They are implemented as classes or structs that overload the `operator()`.
+
+## Key Characteristics
+- Behave like functions when called.
+- Can encapsulate behavior and state.
+
+## Functors in the STL
+- Used extensively in STL algorithms for custom behavior.
+- Commonly used as custom comparators or operations.
+
+## Usage in Algorithms
+- Passed as arguments to STL algorithms.
+- Example: Custom sorting based on specific attributes.
+
+## Function Call Operator (`operator()`)
+- Defines the behavior of the functor when called.
+- Allows encapsulation of custom logic.
+
+## Why Use Functors?
+- Flexibility and reusability.
+- Seamless integration with STL.
+
+---------------overally------------
+sort() ର କାମ ascending order ରେ Integer ମାନଙ୍କୁ ସଜେଇ ଦେବା,
+କିନ୍ତୁ ଏୟା ଭିତରେ କିଛି letter , words , names , pass କଲେ ଇୟେ ଆଉ sort କରିପାରିବନି |
+ତ ଆମେ ଗୋଟେ specific function class a.k.a. FUNCTOR ବନେଇକି ଛାଡି ଦେଲେ with specific task,
+in future ତାକୁ direct use କରିପାରିବା like sort() funcion :)
