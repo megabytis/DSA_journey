@@ -1,0 +1,17 @@
+Why Use Iterators in C++?
+
+1. Working with Algorithms
+
+C++ provides a wide range of built-in algorithms (e.g., finding elements, sorting, summing values) that operate on data containers like arrays, vectors, and lists. Iterators serve as the bridge between these algorithms and containers, enabling seamless application of operations across different data structures.
+
+2. Saving Memory
+
+Iterators allow processing of data one element at a time, which is especially useful for large datasets. Instead of loading all data into memory simultaneously, iterators enable efficient traversal and manipulation, reducing memory overhead.
+
+3. Uniform Approach
+
+Whether you're working with a vector, set, list, or another container, iterators provide a consistent way to access and manipulate elements. This uniformity simplifies code and makes it more adaptable to different container types.
+
+4. Simpler Code
+
+Iterators abstract away the repetitive details of traversing containers, leading to cleaner and more readable code. By leveraging iterators, you avoid manual index management and reduce boilerplate code, making your programs easier to maintain.

@@ -1,0 +1,53 @@
+Iterator Types Hierarchy (from most to least restrictive):
+
+
+
+------Input Iterator--------
+> can perform Read-only
+> Forward movement only (++)
+> Single-pass (can't revisit elements)
+> supported operators : ++, *, ->, ==, !=
+
+Example: std::istream_iterator
+
+
+
+-------Output Iterator--------
+> can prform Write-only 
+> Forward movement only (++)
+> Single-pass
+> supported operators : ++, *, =
+
+Example: std::ostream_iterator
+
+
+
+--------Forward Iterator--------
+> based on Singly-Linked list i.e. Forward movement only (++)
+> can perform both Read/write 
+> Multi-pass (can revisit elements)
+> supported operators : ++, *, ==, ->, !=
+
+Example: std::forward_list::iterator
+
+
+
+---------Bidirectional Iterator----------
+> based on Doubly-Linked list i.e. Forward/backward movement (++, --)
+> Read/write access
+> Multi-pass
+> supported operators : ++, --, *, ==, ->, !=
+
+Example: std::list::iterator, std::set::iterator, std::deques::iterator
+
+# actually <deques> can do every operations -- ++ += -= like ormal vectors not just bi-directional, i.e. can access any specific elemnt like arr[4] :) 
+
+
+----------Random Access Iterator-----------
+> Read/write access
+> Full movement (++, --, +, -, +=, -=)
+> Direct element access ([])
+> Multi-pass
+> supported operators : ++, --, *, ->, [], +, -, <, <=, >, >=, ==, !=
+
+Example: std::vector::iterator, std::array::iterator, raw pointers

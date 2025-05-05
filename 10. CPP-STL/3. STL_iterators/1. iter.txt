@@ -1,0 +1,40 @@
+Iterator Operations Explained:
+
+
+---------- Dereferencing --------------
+
+*iter: Returns the element at the current position
+
+iter->m: Returns member m of the object (equivalent to (*iter).m)
+
+
+
+------------- Movement Operations ---------------
+
+++iter: Moves iterator to next position (prefix)
+
+iter++: Moves iterator to next position (postfix)
+
+--iter: Moves iterator to previous position (prefix)
+
+iter--: Moves iterator to previous position (postfix)
+
+iter + n: Moves iterator forward by n positions
+
+iter - n: Moves iterator backward by n positions
+
+
+
+-------------- Comparison Operations --------------
+
+iter1 == iter2: Checks if pointing to same position
+
+iter1 != iter2: Checks if pointing to different positions
+
+iter1 < iter2: Checks if iter1 comes before iter2 (random-access only)
+
+
+
+-------------- Assignment Operation ---------------
+
+iter = iter1: Assigns position from iter1 to iter
