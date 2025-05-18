@@ -1,3 +1,6 @@
+// Kadane's Algorithm
+// https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
+
 #include <algorithm>
 #include <climits>
 #include <iostream>
