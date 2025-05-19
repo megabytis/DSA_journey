@@ -38,6 +38,11 @@ int approxSqrt(int x) {
 
     return mid-1;
 }
+/*
+Time complexity : O(log n)
+Space complexity : O(1)
+*/
+
 
 double presizeSqrt(int x) {
 
@@ -82,6 +87,10 @@ double presizeSqrt(int x) {
     return finalAns;
 
 }
+/*
+Time complexity : O(log n) + O(precission)
+Space complexity : O(1)
+*/
 
 int main() {
     int x = 8;
